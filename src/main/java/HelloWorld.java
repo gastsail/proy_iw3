@@ -7,15 +7,15 @@ import org.json.*;
 @EnableAutoConfiguration
 public class HelloWorld {
 
-@RequestMapping("/")
-String home() {
-    JSONObject json = new JSONObject();
-    json.put("nombre","gaston");
-return json.toString();
-}
+    @RequestMapping("/")
+    String home() {
+        JSONObject json = new JSONObject();
+        json.put("nombre", "gaston");
+        return json.toString();
+    }
 
-public static void main(String[] args) {
-SpringApplication.run(HelloWorld.class, args);
-}
+    public static void main(String[] args) {
+        SpringApplication.run(HelloWorld.class, args);
+    }
 
 }
