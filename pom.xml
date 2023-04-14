@@ -22,7 +22,7 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/x
   <dependency>
     <groupId>org.json</groupId>
     <artifactId>json</artifactId>
-    <version>20190722</version>
+    <version>20230227</version>
 </dependency>
 
 </dependencies>
